@@ -8,3 +8,4 @@ Resources
 plugins/ti.alloy/plugin.pyc
 node_modules
 env
+*.swp
