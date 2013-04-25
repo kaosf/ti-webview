@@ -13,7 +13,7 @@ module.exports = (grunt) ->
       alloy:
         cmd: 'alloy compile'
       build:
-        cmd: 'ti build -p android -b -s 3.1.0.GA'
+        cmd: './build.sh'
       clean:
         cmd: 'rm -rf build build.log Resources app/**/*.js'
 
