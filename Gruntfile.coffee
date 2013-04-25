@@ -15,7 +15,8 @@ module.exports = (grunt) ->
       build:
         cmd: './build.sh'
       clean:
-        cmd: 'rm -rf build build.log Resources app/**/*.js'
+        cmd: 'rm -rf build build.log Resources; ' +
+             "find app -name '*.js' | xargs -i rm {}"
 
   grunt.registerTask 'default', ['clean', 'compile', 'build']
   grunt.registerTask 'compile', ['coffee:base', 'exec:alloy']
