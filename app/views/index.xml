@@ -1,3 +1,9 @@
 <Alloy>
-  <Window/>
+  <Window modal="true">
+    <WebView id="webview"/>
+    <Menu platform="android">
+      <MenuItem id="forward" title="go forward" onClick="goForward">
+      <MenuItem id="reload" title="reload" onClick="reload">
+    </Menu>
+  </Window>
 </Alloy>
