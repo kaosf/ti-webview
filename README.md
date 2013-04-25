@@ -36,6 +36,14 @@ ti login
 ti sdk install 3.1.0.GA
 ```
 
+Create `env` file.
+
+```txt:env
+echo 'hostname: my.domain.com' > env
+```
+
+This content is read from Titanium code. It is used for the hostname.
+
 At last, you only have to install some Node.js packages for Grunt.
 
 ```sh
