@@ -27,12 +27,13 @@ Install [Titanium CLI](https://github.com/appcelerator/titanium), [Alloy](https:
 npm install -g titanium@3.0.23 alloy@1.0.0 grunt-cli@0.1.7
 ```
 
-Log in and install Titanium Mobile SDK with Titanium CLI.
+Log in, do setup and install Titanium Mobile SDK with Titanium CLI.
 
 If you are using Ubuntu (or other Linux distribution), you need to install `unzip` package. Execute `sudo apt-get install unzip` before going to the next step.
 
 ```sh
 ti login
+ti setup
 ti sdk install 3.1.0.GA
 ```
 
