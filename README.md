@@ -56,7 +56,7 @@ npm install
 
 Download and extract [Android SDK](http://developer.android.com/sdk/index.html). Then, install SDKs.
 
-Build the application.
+Build apk file with the following command;
 
 ```sh
 grunt
