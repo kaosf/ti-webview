@@ -1,5 +1,5 @@
 <Alloy>
-  <Window modal="true">
+  <Window navBarHidden="true" modal="true">
     <WebView id="webview"/>
     <Menu platform="android">
       <MenuItem id="forward" title="go forward" onClick="goForward">
